@@ -1,0 +1,83 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Remove whitespace on top of certain browsers */
+/* Fonte ("skrifttyper") placeres øverst */
+
+/* Farvepalette */
+:root {
+--baggrund: #5b824e;
+--tekstfarve: #d4dec7;
+--kontrast1: rgb(122, 202, 129);
+--kontrast2: rgb(121, 176, 219);
+--kontrast3: rgb(191, 123, 123);
+--kontrast4: rgb(90, 98, 65);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define variables in the :root */
+ 
+body{
+  background-color:rgba(205, 232, 161, 0.639);
+Color: var(--kontrast3);
+}
+
+
+img{
+  width: 100%;}
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  p{padding:23px;}
+  
+
+.flexdemo {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Use your variables on elements along these lines */
+/*
+:root {
+  --contrast: lime;
+  --backgr: #000;
+}
+
+/* styles til navigation */
+
+/* Sticky navigation ("topklistret") */
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color:var(--tekstfarve);
+  /* color: er altid skriftens farve */
+  background-color: var(--kontrast3);
+}
+
+Nav a {
+  color: var(--tekstfarve);
+}
+
+nav a img {
+height: 99px;
+width: auto;
+}
+--- You can use the variables like this ---
+
+ main {
+   color: var(--contrast);
+   background-color: var(--backgr);
+ }
+*/
